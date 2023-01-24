@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resepdalgona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="246dp"
+            android:layout_height="35dp"
+            android:background="@drawable/juduldalgona"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="177dp"
+            android:background="@drawable/fotodalgona"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Bahan-bahan:\n\n1. 4 sdm kopi instan\n2. Secukupnya gula pasir\n3. 4 sdm air mendidih\n3. 2 gelas susu\n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Cara membuat:\n\n1. Masukkan kopi dan gula ke wadah, lalu tuang air mendidih. Gula bisa dikurangi atau ditambah sesuai selera.\n2. Mixer dengan kecepatan tinggi hingga warna berubah dan tekstur mengental kurang lebih selama 10-15 menit. Jika kamu tidak memiliki mixer, bisa masukkan bahan ke botol dan kocok sampai teksturnya mengental.\n3. Tuangkan susu, boleh panas atau dingin, hingga setelah gelas. Masukkan 1-2 sdt adonan kopi.\n4. Sajikan./n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="untuk lebih jelasnya kunjungi link YouTobe di bawah ini"/>
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="14dp"
+            android:textColor="#0099CC"
+            android:text="https://www.youtube.com/watch?v=VVSGUWWQjs"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resepmilkshake">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="246dp"
+            android:layout_height="35dp"
+            android:background="@drawable/judulmilkshake"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="177dp"
+            android:background="@drawable/fotomilkshake"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Bahan-bahan:\n\n1. Biskuit oreo\n2. Susu cair\n3. 1 mangkuk dark chocolate serut\n4. 1 mangkuk es batu (bisa sesuai selera)\n5. Keju Craft parut\n6. Susu kental manis\n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Cara membuat:\n\n1. Siapkan blender, masukkan 8 biskuit oreo ke dalam blender\n2. Tuangkan 150 ml susu cair\n3. Tuangkan susu kental manis secukupnya\n4. Masukkan es batu sesuai selera\n5. Tambahkan dark chocolate, tutup dan blender semua bahan hingga tercampur halus, simpan\n6. Siapkan gelas saji, tuangkan bahan yang telah diblender ke dalam gelas\n7. Tambahkan sedikit susu cair di atasnya\n8. Beri keju serut dan potongan oreo di atasnya\n9. Oreo Milkshake siap disajikan\n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="untuk lebih jelasnya kunjungi link YouTobe di bawah ini"/>
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="14dp"
+            android:textColor="#0099CC"
+            android:text="https://www.youtube.com/watch?v=lHjsaIOHSA"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

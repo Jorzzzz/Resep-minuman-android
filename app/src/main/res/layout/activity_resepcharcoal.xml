@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resepcharcoal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="246dp"
+            android:layout_height="35dp"
+            android:background="@drawable/judulcharcoal"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="177dp"
+            android:background="@drawable/fotocharcoal"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Bahan-bahan:\n\n1. 150 ml susu\n2. 1/4 sdt bubuk charcoal\n3. 25 r salty cheese powder\n4. 50 ml susu dingin\n5. 1 sdm simple syrup (sirop gula yang dibuat dengan merebus gula pasir dan air)\n6. Oreo crumb, es batu, dan daun mint secukupnya\n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Cara membuat:\n\n1. Campurkan susu dengan bubuk charcoal dan simple syrup. Kocok susu dingin dan salty cheese powder.\n2. Siapkan gelas dan tuang es batu secukupnya.\n3. Masukkan susu charcoal, cheese foam lalu tabur Oreo crumb. Sesuaikan susunannya. Kemudian hias dengan daun mint.\n4. Siap dinikmati!"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="untuk lebih jelasnya kunjungi link YouTobe di bawah ini"/>
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="14dp"
+            android:textColor="#0099CC"
+            android:text="https://www.youtube.com/watch?v=Sn2P-y0Bdda"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

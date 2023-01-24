@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resepbrown">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="246dp"
+            android:layout_height="35dp"
+            android:background="@drawable/judulbrown"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"/>
+
+        <ImageView
+            android:layout_width="187dp"
+            android:layout_height="177dp"
+            android:background="@drawable/fotobrown"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Bahan-bahan:\n\n1. 100 gr tepung tapioka\n2. 40 gr gula aren\n3. 70 ml air\n4. 120 gr gula aren\n5. Susu cair full cream\n6. Es batu\n"/>
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Cara membuat:\n\n1. Untuk membuat Boba, didihkan air dan gula aren.\n2. Jika sudah mendidih, matikan api dan masukkan tepung tapioka. kemudian, aduk hingga menggumpal.\n3. Siapkan wadah yang sudah ditaburkan tepung tapioka. Lalu, bulat-bulatkan dan taburi boba dengan tepung tapioka agar tidak menempel.\n4. Didihkan 1 liter air dan masukkan boba. masak selama 15 menit hingga empuk.\n5. Buang air rebusan boba, masukkan bahan sirup gula.\n6. Aduk rata dan masak boba dan gula tanpa air dengan api kecil hingga mencair dan sirup mengental.\n7. Masukkan boba dan susu full cream secukupnya. Moms bisa menambahkan es batu atau topping sesuai selera ya.\n"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="untuk lebih jelasnya kunjungi link YouTobe di bawah ini"/>
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="14dp"
+            android:textColor="#0099CC"
+            android:text="https://www.youtube.com/watch?v=Sn2P-y0BuDE"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</ScrollView>
